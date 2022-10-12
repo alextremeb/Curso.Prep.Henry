@@ -196,12 +196,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  var numero = ["tre"]
-  if ( numero[0].length == 3) {
-    return true;
-  } else if ( numero[0].length !== 3) {
-    return false;
-  }
+  return numero.toString().length === 3 
 }
 
 function doWhile(numero) {
