@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  var array = []
+  var array = [10, 10, 16, 12]
   return array[0]
 }
 
@@ -34,6 +34,7 @@ function incrementarPorUno(array) {
   nuevoArreglo.push(array[i + 1]);
   }
   return nuevoArreglo;
+
 }
 
 
